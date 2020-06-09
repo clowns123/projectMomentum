@@ -56,7 +56,6 @@ const changeCompleted = () => {
 const todoInput = (e) => {
   if (e.keyCode !== 13) return;
   saveTodo(e.target.value);
-  console.log('asd');
 };
 
 const chackTodo = () => {
